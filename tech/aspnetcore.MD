@@ -20,7 +20,7 @@ A cross-platform version of .NET, that supports almost all things that .NET supp
 
 </details>
 
-### 2. What is ASP.NET Core
+### 2. What is ASP.NET Core :star:
 
 <details>
     <summary>
@@ -35,7 +35,7 @@ It comes with some build in features, line simple DI, logging, strongly typed co
 
 </details>
 
-### 3. What is Kestrel?
+### 3. What is Kestrel? :star:
 
 <details>
     <summary> 
@@ -46,7 +46,7 @@ Kestrel is a cross-platform web server built for ASP.NET Core based on libuv –
 
 </details>
 
-### 4. Dependency Injection in ASP.NET Core?
+### 4. Dependency Injection in ASP.NET Core? :star:
 
 <details>
     <summary>
@@ -57,9 +57,53 @@ Dependency Injection comes as a part of ASP.NET Core Framework and everything is
 
 </details>
 
-### 5. Explain Middleware in ASP.NET Core?
+### 5. Explain Middleware in ASP.NET Core? :star:
 
 <details>
     <summary>
         Answer
     </summary>
+
+In ASP.NET we had modules and web handlers to handle request pipeline. Middleware in ASP.NET Core is software that application injects into request / response pipeline to execute certain actions before next part of the application is invoked. Request delegates usage is to build the request pipeline. middleware participates in forming both HTTP Request and HTTP Response of the ASP.NET Core Web Server.
+
+For example we can have Logging middleware, Authentication middleware, MVC middleware
+
+</details>
+
+### 6. Logging in ASP.NET Core? :star:
+
+<details>
+    <summary>
+        Answer
+    </summary>
+
+Logging is built-in and you get access to structured logs from the ASP.NET Core host itself to your application. With tools like `Serilog`, you can extend your logging easily and save your logs to file, Azure, Amazon or any other output provider. You can configure verbosity and log levels via configuration (`appsettings.json` by default), and you can configure log levels by different categories.
+
+</details>
+
+### 7. Talk About New .csproj File? :star:
+
+<details>
+    <summary>
+        Answer
+    </summary>
+
+`.csproj` file is now used as a place where we manage the NuGet packages for your application.
+
+File explorer and project explorer are now in sync. For .NET Core projects, you can easily drop a file from file explorer into a project or delete it from the file system and it will be gone from the project. No more source files in a `.csproj` file.
+
+You can now edit the `.csproj` file directly without unloading the project.
+
+</details>
+
+### 8. What is Startup.cs in ASP.NET Core?
+
+<details>
+    <summary>
+        Answer
+    </summary>
+
+In ASP.NET, `Global.asax` acts as the entry point for your application.
+In ASP.net Core, `startup.cs` is the entry point for your application.
+
+</details>
