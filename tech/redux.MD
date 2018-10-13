@@ -87,7 +87,12 @@ Reducers are used to get a new state from an existing state. The new state becom
     <summary>
         Answer
     </summary>
-
+    
+`Redux vs MVC`: 
+    Redux is an unidirectional data flow architecture while in MVC modles and controllers communicate with each other, and thereby they alter the states of each other. The application is constantly in a shared state. In Redux our app is always stateful, meaning state pretty mush determines how the app should look and behave, everey function serves a unit which takes an input and return the same output. States are read-only and immutable, all our changes are made with pure functions which make our UT much easier.
+    
+`Redux vs Flux`:
+    Flux is basically observer pattern that has been modified to fit React.. Both Flux and Redux have actions. Actions can be compared to events. In flux, an action is a simple JS object, and that's the default case in Redux too, but when using some Redux middelware actions can also be functions and promises. With Flux it's a convention to have multiple stores per application, while in Redux, the convention is to have a single store per application. Flux has a single dispatcher and all actions have to pass through it. Redux has no dispatcher entity. instead, the store has the dispatching process baked in. in Flux the logic of what to do on the data based on the recieved action is written in the store itself. In Redux, the logic of what to do on the data based on the recived actions is in the reducer function that gets called for every action that gets dispatched. In Redux the state immutable while in Flux you can mutate the state as you which.
 </details>
 
 ### 7. Why the state is read-only? :star:
