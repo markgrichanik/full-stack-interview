@@ -64,7 +64,7 @@ Dependency Injection comes as a part of ASP.NET Core Framework and everything is
         Answer
     </summary>
 
-In ASP.NET we had modules and web handlers to handle request pipeline. Middleware in ASP.NET Core is software that application injects into request / response pipeline to execute certain actions before next part of the application is invoked. Request delegates usage is to build the request pipeline. middleware participates in forming both HTTP Request and HTTP Response of the ASP.NET Core Web Server.
+In ASP.NET we had modules and web handlers to handle request pipeline. Middleware in ASP.NET Core is software that application injects into request / response pipeline to execute certain actions before next part of the application is invoked. Request delegates usage is to build the request pipeline. Middleware participates in forming both HTTP Request and HTTP Response of the ASP.NET Core Web Server.
 
 For example we can have Logging middleware, Authentication middleware, MVC middleware
 
