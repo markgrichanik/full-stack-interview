@@ -13,17 +13,17 @@ No adds, no disturbing crap. Just learning materials.
 
 # Tech topics
 
-## Client Side languages
+## Client Side languages / technologies / frameworks
 
 1. [JavaScript](./tech/javascript.MD) - 19 interview questions and answers
 2. [React](./tech/react.MD) - 10 interview questions and answers
 3. [Redux](./tech/redux.MD) - 10 interview questions and answers
 
-## Server Side languages
+## Server Side languages / technologies / frameworks
 
 1. [ASP.NET Core]('./tech/aspnetcore.MD') - 9 interview questions and answers
 
-## Data languages
+## Data languages / technologies / frameworks
 
 1. SQL
 
