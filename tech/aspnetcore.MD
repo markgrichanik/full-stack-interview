@@ -1,0 +1,65 @@
+<h1 align="center">
+ASP.NET Core Interview Questions & Answers
+</h1>
+<p align="center">
+    <img src="https://github.com/monkey3310/full-stack-interview/blob/master/assets/aspnetcore.png" alt="ASP.NET Core Interview Questions & Answers" height="200"/>
+</p>
+
+_Note: Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would._
+
+### 1. What is .NET Core :star:
+
+<details>
+    <summary>
+        Answer
+    </summary>
+
+A cross-platform version of .NET, that supports almost all things that .NET supported (except things like WPF, Windows Forms, Web Forms and Active Directory). It is leaner, faster and improved version of .NET
+
+.NET Core and ASP.NET Core are FREE and Open Source but also they are supported by Microsoft.
+
+</details>
+
+### 2. What is ASP.NET Core
+
+<details>
+    <summary>
+        Answer
+    </summary>
+
+ASP.NET Core is a brand new cross-platform web framework built with .NET Core framework. Its not an update to ASP.NET framework, but a complete rewrite from scratch. Its more modular, scalable, and faster compared to ASP.NET, + cross platform and easily extendable.
+
+It works with both .NET Core and .NET Framework.
+
+It comes with some build in features, line simple DI, logging, strongly typed configuration, new fully async pipeline.
+
+</details>
+
+### 3. What is Kestrel?
+
+<details>
+    <summary> 
+        Answer
+    </summary>
+
+Kestrel is a cross-platform web server built for ASP.NET Core based on libuv – a cross-platform asynchronous I/O library.
+
+</details>
+
+### 4. Dependency Injection in ASP.NET Core?
+
+<details>
+    <summary>
+        Answer
+    </summary>
+
+Dependency Injection comes as a part of ASP.NET Core Framework and everything is built around it. You can extend the current DI with a container of your choice (AutoFac, StructureMap, CastleWindsor etc).
+
+</details>
+
+### 5. Explain Middleware in ASP.NET Core?
+
+<details>
+    <summary>
+        Answer
+    </summary>

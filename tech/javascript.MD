@@ -30,7 +30,7 @@ As an example:
 function echoThis() {
   console.log(this);
 }
-echoThis.call("hello"); // hello
+echoThis.call('hello'); // hello
 ```
 
 **new Binding**: If a function is called using the `new` keyword, an empty object is created and assigned to `this` inside the function.
@@ -91,8 +91,8 @@ This is the strict comparison operator e.g. `5 == '5' = true` vs `5 === '5' = fa
 Access one element:
 
 ```js
-let byID = document.getElementById("id");
-let qS = document.querySelector("#id");
+let byID = document.getElementById('id');
+let qS = document.querySelector('#id');
 ```
 
 They return the first matching node. querySelector is the new selector interface, should be faster, but depends on browser implementation. querySelector can take any css-selector and is more comfortable.
@@ -101,7 +101,7 @@ Access one and more:
 
 ```js
 let byClass = document.getElementsByClassName(classname);
-let qSA = document.querySelectorAll(".classname");
+let qSA = document.querySelectorAll('.classname');
 ```
 
 They return a non-live NodeList, which is an array-like list of elements, array-like means that some functions are missing like push(), pop()).
@@ -211,7 +211,7 @@ const modifyArray = (arr, callback) => {
 var arr = [1, 2, 3, 4, 5];
 
 modifyArray(arr, function() {
-  console.log("array has been modified", arr);
+  console.log('array has been modified', arr);
 });
 ```
 
@@ -325,7 +325,7 @@ Switches to strict mode which helps to prevent common errors like using unsafe o
 `bind` is a method to bind the current context for later execution e.g.
 
 ```js
-element.addEventListener("click", this.onClick.bind(this), false);
+element.addEventListener('click', this.onClick.bind(this), false);
 ```
 
 it creates a new function which prevents accidental loss of scope. An alternative approach is to use apply, call or ES6 fat-arrow function.
