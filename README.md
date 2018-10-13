@@ -21,7 +21,8 @@ No adds, no disturbing crap. Just learning materials.
 
 ## Server Side languages / technologies / frameworks
 
-1. [ASP.NET Core](./tech/aspnetcore.MD) - 9 interview questions and answers
+1. [C#](./tech/csharp.MD) - 14 interview questions and answers
+2. [ASP.NET Core](./tech/aspnetcore.MD) - 9 interview questions and answers
 
 ## Data languages / technologies / frameworks
 
