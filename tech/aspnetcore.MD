@@ -96,7 +96,7 @@ You can now edit the `.csproj` file directly without unloading the project.
 
 </details>
 
-### 8. What is Startup.cs in ASP.NET Core?
+### 8. What is Startup.cs in ASP.NET Core? :star:
 
 <details>
     <summary>
@@ -104,6 +104,24 @@ You can now edit the `.csproj` file directly without unloading the project.
     </summary>
 
 In ASP.NET, `Global.asax` acts as the entry point for your application.
-In ASP.net Core, `startup.cs` is the entry point for your application.
+In ASP.NET Core, `startup.cs` is the entry point for your application.
+
+</details>
+
+### 9. Explain two types of deployment for .NET Core applications :start::star:
+
+<details>
+    <summary>
+        Answer
+    </summary>
+
+You can deploy a .NET Core application either as a framework-dependent deployment, which includes your application binaries but depends on the presence of .NET Core on the target system, or as a self-contained deployment, which includes both your application and the .NET Core binaries.
+
+- Framework-dependent deployment
+  > Deploying a framework-dependent deployment with no third-party dependencies simply involves building, testing, and publishing the app. A simple example written in C# illustrates the process
+- Framework-dependent deployment with third-party dependencies
+  > Deploying a framework-dependent deployment with one or more third-party dependencies requires that those dependencies be available to your project
+- Self-contained deployment without third-party dependencies
+  > Deploying a self-contained deployment without third-party dependencies involves creating the project, modifying the csproj file, building, testing, and publishing the app.
 
 </details>
